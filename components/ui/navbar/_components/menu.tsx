@@ -40,20 +40,20 @@ const items: MenuItem[] = [
         title: "Products",
         menu: "products",
         options: [
-            { label: 'onChain LLMs', emoji: <LibrarySquare className='text-red-500' />, href:'/onchain-llms'},
-            { label: 'onChain VectorDB', emoji: <Download className='text-green-500' />, href:'/onchain-vectordb'},
-            { label: 'onChain Embeddings', emoji: <Code2Icon className='text-amber-500' />, href:'/onchain-embeddings'},
-            { label: 'onChain Datasets', emoji: <LifeBuoy className='text-blue-500' />, href:'/onchain-datasets'},
+            { label: 'onChain LLMs', emoji: <LibrarySquare className='text-red-500' />, href:'/'},
+            { label: 'onChain VectorDB', emoji: <Download className='text-green-500' />, href:'/'},
+            { label: 'onChain Embeddings', emoji: <Code2Icon className='text-amber-500' />, href:'/'},
+            { label: 'onChain Datasets', emoji: <LifeBuoy className='text-blue-500' />, href:'/'},
         ],
     },
     {
         title: "Use Cases",
         menu: "use-cases",
         options: [
-            { label: 'Chatbot dApps', emoji: <UserCircle2 className='text-red-500' />, href:'/chatbot-dapps'},
-            { label: 'Semantic web3', emoji: <Info className='text-green-500' />, href:'/semantic-web3'},
-            { label: 'Oracle Agents', emoji: <Sparkles className='text-amber-500' />, href:'/oracle-agent'},
-            { label: 'Knowledge NFTs', emoji: <Newspaper className='text-blue-500' />, href:'/knowledge-nfts'},
+            { label: 'Chatbot dApps', emoji: <UserCircle2 className='text-red-500' />, href:'/'},
+            { label: 'Semantic web3', emoji: <Info className='text-green-500' />, href:'/'},
+            { label: 'Oracle Agents', emoji: <Sparkles className='text-amber-500' />, href:'/'},
+            { label: 'Knowledge NFTs', emoji: <Newspaper className='text-blue-500' />, href:'/'},
         ],
     },
 ];

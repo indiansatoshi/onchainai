@@ -12,7 +12,7 @@ const FirstSection = () => {
                 Envision Responsible AI through Blockchain
             </p>
             <div className="flex gap-4 py-10 xl:pt-10">
-                <Link href="/launching-soon">
+                <Link href="/">
                     <Button className="xl:text-3xl text-xl md:justify-center md:flex font-light rounded-[60px] border-8 border-indigo-400/90 py-9 px-10 xl:py-12 xl:px-24 bg-[#565add] transition-all duration-300 shadow-md hover:shadow-indigo-300 hover:scale-110">
                         Launching Soon
                     </Button>

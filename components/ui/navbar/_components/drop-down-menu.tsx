@@ -44,7 +44,7 @@ const DropdownMenu : React.FC<DropdownMenuProps> = ({onClose}) => {
                 <AccordionItem className="my-6 border-b" value="item-1">
                     <AccordionTrigger>Products</AccordionTrigger>
                     <AccordionContent>
-                        <Link href={"/onchain-llms"}
+                        <Link href={"/"}
                         className="flex pt-10"
                         onClick={handleLinkClick}>
                             <div>
@@ -56,7 +56,7 @@ const DropdownMenu : React.FC<DropdownMenuProps> = ({onClose}) => {
                         </Link>
                     </AccordionContent>
                     <AccordionContent>
-                        <Link href={"/onchain-vectordb"}
+                        <Link href={"/"}
                         className="flex pt-10"
                         onClick={handleLinkClick}>
                             <div>
@@ -68,7 +68,7 @@ const DropdownMenu : React.FC<DropdownMenuProps> = ({onClose}) => {
                         </Link>
                     </AccordionContent>
                     <AccordionContent>
-                        <Link href={"/onchain-embeddings"}
+                        <Link href={"/"}
                         className="flex pt-10"
                         onClick={handleLinkClick}>
                             <div>
@@ -80,7 +80,7 @@ const DropdownMenu : React.FC<DropdownMenuProps> = ({onClose}) => {
                         </Link>
                     </AccordionContent>
                     <AccordionContent>
-                        <Link href={"/onchain-datasets"}
+                        <Link href={"/"}
                         className="flex pt-10"
                         onClick={handleLinkClick}>
                             <div>
@@ -95,7 +95,7 @@ const DropdownMenu : React.FC<DropdownMenuProps> = ({onClose}) => {
                 <AccordionItem className="my-6 border-b" value="item-1">
                     <AccordionTrigger>Use Cases</AccordionTrigger>
                     <AccordionContent>
-                        <Link href={"/chatbot-dApps"}
+                        <Link href={"/"}
                         className="flex pt-10"
                         onClick={handleLinkClick}>
                             <div>
@@ -107,7 +107,7 @@ const DropdownMenu : React.FC<DropdownMenuProps> = ({onClose}) => {
                         </Link>
                     </AccordionContent>
                     <AccordionContent>
-                        <Link href={"/semantic-web3"}
+                        <Link href={"/"}
                         className="flex pt-10"
                         onClick={handleLinkClick}>
                             <div>
@@ -119,7 +119,7 @@ const DropdownMenu : React.FC<DropdownMenuProps> = ({onClose}) => {
                         </Link>
                     </AccordionContent>
                     <AccordionContent>
-                        <Link href={"/oracle-agents"}
+                        <Link href={"/"}
                         className="flex pt-10"
                         onClick={handleLinkClick}>
                             <div>
@@ -131,7 +131,7 @@ const DropdownMenu : React.FC<DropdownMenuProps> = ({onClose}) => {
                         </Link>
                     </AccordionContent>
                     <AccordionContent>
-                        <Link href={"/knowledge-nfts"}
+                        <Link href={"/"}
                         className="flex pt-10"
                         onClick={handleLinkClick}>
                             <div>
@@ -144,13 +144,13 @@ const DropdownMenu : React.FC<DropdownMenuProps> = ({onClose}) => {
                     </AccordionContent>
                 </AccordionItem>
             </Accordion>
-            <Link href={"/whitepaper"} className="flex flex-1 items-center justify-between text-xl px-6 py-4 my-6 border-b">
+            {/* <Link href={"/whitepaper"} className="flex flex-1 items-center justify-between text-xl px-6 py-4 my-6 border-b">
                 WhitePaper
                 <div>
                     <ArrowRight className="h-6 w-6"/>
                 </div>
-            </Link>
-            <Link href={"/launching-soon"} className="flex flex-1 items-center justify-between text-xl px-6 py-4 my-6 border-b">
+            </Link> */}
+            <Link href={"/"} className="flex flex-1 items-center justify-between text-xl px-6 py-4 my-6 border-b">
                 Launching Soon
                 <div>
                     <ArrowRight className="h-6 w-6"/>

@@ -21,11 +21,11 @@ const ActionsButtons = () => {
     return (
     <div className="flex items-center md:justify-end md:space-x-6 sm:px-10">
         <div className="flex xl:space-x-6">
-            <Link href ={'whitepaper'} className='xl:flex items-center hidden'>
+            {/* <Link href ={'whitepaper'} className='xl:flex items-center hidden'>
                 <div className='font-light flex'>
                     WhitePaper
                 </div>
-            </Link>
+            </Link> */}
             {/* <Link href ={'sign-in'} className="xl:flex items-center hidden">
                 <div className="font-light flex xl:w-12">
                     WhitePaper
@@ -33,7 +33,7 @@ const ActionsButtons = () => {
             </Link> */}
         </div>
         <div className="flex lg:space-x-4 items-center">
-            <Link href={"/launching-soon"}>
+            <Link href={"/"}>
                 <Button className="hidden md:flex text-md font-light rounded-[40px] border-4 border-indigo-400/90 py-6 bg-[#565add] hover:scale-11- transition-all duration-300 shadow-md hover:shadow-indigo-300">
                     Launching Soon
                 </Button>
