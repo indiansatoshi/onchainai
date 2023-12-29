@@ -1,4 +1,6 @@
+import ActionsButtons from "./_components/action-buttons";
 import Logo from "./_components/logo";
+import { NavigationMenuBar } from "./_components/menu";
 
 const Navbar = () => {
     return ( <div
@@ -18,6 +20,10 @@ const Navbar = () => {
             <div className="w-40">
                 <Logo/>
             </div>
+        </div>
+        <div className="flex items-center">
+            <NavigationMenuBar/>
+            <ActionsButtons/>
         </div>
     </div> );
 }

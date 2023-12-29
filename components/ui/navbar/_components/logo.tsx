@@ -5,7 +5,7 @@ const Logo = () => {
     return ( <div>
        <Link href={"/"}>
         <Image
-            src="/logos/logo.png"
+            src="/logos/onchainAI_logo.png"
             alt="logo"
             width={150}
             height={150}
