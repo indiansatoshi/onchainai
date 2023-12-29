@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import {
     AlignJustify,
+    ArrowRight,
     BarChart,
     Building2,
     Camera,
@@ -143,6 +144,24 @@ const DropdownMenu : React.FC<DropdownMenuProps> = ({onClose}) => {
                     </AccordionContent>
                 </AccordionItem>
             </Accordion>
+            <Link href={"/whitepaper"} className="flex flex-1 items-center justify-between text-xl px-6 py-4 my-6 border-b">
+                WhitePaper
+                <div>
+                    <ArrowRight className="h-6 w-6"/>
+                </div>
+            </Link>
+            <Link href={"/launching-soon"} className="flex flex-1 items-center justify-between text-xl px-6 py-4 my-6 border-b">
+                Launching Soon
+                <div>
+                    <ArrowRight className="h-6 w-6"/>
+                </div>
+            </Link>
+            {/* <Link href={"/contact"} className="flex flex-1 items-center justify-between text-xl px-6 py-4 my-6 border-b">
+                Contact
+                <div>
+                    <ArrowRight className="h-6 w-6"/>
+                </div>
+            </Link> */}
         </div>
     )
 }

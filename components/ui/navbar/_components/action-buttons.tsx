@@ -33,16 +33,16 @@ const ActionsButtons = () => {
             </Link> */}
         </div>
         <div className="flex lg:space-x-4 items-center">
-            <Link href={"/join-waitlist"}>
+            <Link href={"/launching-soon"}>
                 <Button className="hidden md:flex text-md font-light rounded-[40px] border-4 border-indigo-400/90 py-6 bg-[#565add] hover:scale-11- transition-all duration-300 shadow-md hover:shadow-indigo-300">
-                    Join Waitlist
+                    Launching Soon
                 </Button>
             </Link>
-            <Link href={"/contact"}>
+            {/* <Link href={"/contact"}>
                 <Button className="hidden text-[#565add] text-md font-light bg-[#eff0ff] p-6 rounded-[40px] hover:scale-110 transition-all duration-300 shadow-md md:hidden lg:flex hover:shadow-indigo-300">
                     Contact
                 </Button>
-            </Link>
+            </Link> */}
         </div>
 
         {isDropdownVisible && (

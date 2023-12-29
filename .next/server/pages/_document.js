@@ -23,6 +23,16 @@ module.exports = require("next/dist/compiled/next-server/pages.runtime.dev.js");
 
 /***/ }),
 
+/***/ "path?5aa4":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/***/ ((module) => {
+
+module.exports = require("path");
+
+/***/ }),
+
 /***/ "react":
 /*!************************!*\
   !*** external "react" ***!
@@ -30,16 +40,6 @@ module.exports = require("next/dist/compiled/next-server/pages.runtime.dev.js");
 /***/ ((module) => {
 
 module.exports = require("react");
-
-/***/ }),
-
-/***/ "path":
-/*!***********************!*\
-  !*** external "path" ***!
-  \***********************/
-/***/ ((module) => {
-
-module.exports = require("path");
 
 /***/ })
 
